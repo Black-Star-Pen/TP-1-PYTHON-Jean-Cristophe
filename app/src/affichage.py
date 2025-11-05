@@ -48,7 +48,7 @@ def afficher_recapitulatif(produit, quantite_demandee, montant_ht, montant_ttc, 
 def convertir_prix_string(montant_ttc):
      
     montant_ttc_str = f"{montant_ttc:.2f}€"
-    print(f"\n ▶️Montant total à payer : {montant_ttc_str}")
+    print(f"\n ▶️  Montant total à payer : {montant_ttc_str}")
 
 
 # ============================================================================
